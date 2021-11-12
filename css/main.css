@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 56px;
+  box-sizing: border-box;
+}
+
+/*Header*/
+.header {
+  display: flex;
+  margin-bottom: 140px;
+}
+
+.header_img {
+  width: 47%;
+  background: url('../assets/img/Mask\ Group.jpg');
+  background-size: cover;
+}
+
+.header_data {
+  flex: 1;
+}
+
+.header_top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header_top-logo {
+  width: 36px;
+  height: 36px;
+  margin: 40px 516px 0 56px;
+}
+
+.header_top-img {
+  margin-left: 40px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.header_top-action {
+  border: none;
+  border-radius: 0;
+  padding: 8px 32px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header_top-action:hover {
+  background: rgba(21, 105, 99, 0.52);
+}
+
+.header_top-action--signup {
+  margin-left: 8px;
+  color: #156963;
+  background: transparent;
+}
+
+.header_top-action--signin {
+  background: #156963;
+  color: #ffffff;
+}
+
+.header_top {
+  padding: 40px 56px 0;
+  box-sizing: border-box;
+}
+
+.header_content {
+  padding: 110px 72px 110px 77px;
+  box-sizing: border-box;
+}
+
+.header_title {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 83px;
+  color: #156963;
+}
+
+.header_description {
+  font-size: 18px;
+  line-height: 32px;
+  color: #2C1500;
+  opacity: 0.8;
+}
+
+.header_actions {
+  display: flex;
+}
+
+.header_action {
+  width: 50%;
+  padding: 39px 49px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header_action:hover {
+  background: rgba(21, 105, 99, 0.52);
+}
+
+.header_action--prev .header_action_label {
+  color: #156963;
+}
+
+.header_action--prev .header_action_img {
+  margin-right: 8px;
+}
+
+.header_action--next {
+  background: #156963;
+}
+
+.header_action--next .header_action_label {
+  color: #FFFFFF;
+}
+
+.header_action--next .header_action_img {
+  margin-left: 8px;
+}
+
+.header_action--next .header_action_movement {
+  color: #FFFFFF;
+}
+
+.header_action_img {
+  width: 32px;
+  height: 32px;
+}
+
+.header_action_movement {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  opacity: 0.7;
+  color: #333333;
+}
+
+.header_action_label {
+  margin: 0;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+/*Services*/
+.services {
+  margin-bottom: 83px;
+}
+
+.services_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services_item {
+  width: calc(25% - 24px);
+  padding: 22px 16px;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+}
+
+.services_item-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.services_item-title {
+  margin-left: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #156963;
+}
+
+.services_item-description {
+  font-size: 10px;
+  line-height: 16px;
+  color: #2C1500;
+}
+
+/*Featured-plants*/
+.featured-plants_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 44px;
+}
+
+.featured-plants_header-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: 56px;
+}
+
+.featured-plants_header-cheaper {
+  width: 130px;
+  height: 31px;
+  margin-right: 56px;
+  border: rgba(29, 31, 30, 0.4);
+  cursor: pointer;
+}
+
+.featured-plants_header-cheaper_price{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.featured-plants_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-plants_item {
+  text-align: center;
+  width: 217px;
+}
+
+.featured-plants_item-img-wrapper {
+  width: 100%;
+  height: 217px;
+  background: #F3F4F6;
+}
+
+.featured-plants_item-img {
+  width: 100%;
+  height: 100%;
+}
+
+.featured-plants_item-title {
+  line-height: 20px;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.featured-plants_item-price {
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  margin-top: 8px;
+}
