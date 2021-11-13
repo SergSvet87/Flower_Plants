@@ -213,7 +213,7 @@ p {
 }
 
 /*Featured-plants*/
-.featured-plants{
+.featured-plants {
   margin-bottom: 80px;
 }
 
@@ -239,7 +239,7 @@ p {
   cursor: pointer;
 }
 
-.featured-plants_header-cheaper_price{
+.featured-plants_header-cheaper_price {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
@@ -280,20 +280,87 @@ p {
   margin-top: 8px;
 }
 
+/**/
+
+/*  */
+.plants {
+  margin-bottom: 80px;
+}
+
+.plants_wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1165px;
+  margin: 0 auto;
+}
+
+.plants_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plants_description-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  color: #2C1500;
+  margin-bottom: 16px;
+}
+
+.plants_description-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #2C1500;
+  opacity: 0.8;
+  margin-bottom: 74px;
+}
+
+.plants_description img {
+  width: 568px;
+  height: 250px;
+  padding-bottom: 8px;
+}
+
+.plants_picture img {
+  margin-left: 84px;
+  width: 513px;
+  height: 100%;
+}
+
 /*Shop*/
 .shop {
   margin-bottom: 80px;
 }
 
-.shop_content {
-  overflow: hidden;
-  position: relative;
-  padding: 88px 486px 88px 97px;
+.wrapper_shop-wrapper {
+  width: 100%;
+  max-width: 1165px;
+  height: 360px;
+  margin: 0 auto;
   background: #F3F4F6;
-  box-sizing: border-box;
 }
 
-.shop_title {
+.shop_content {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-right: 8px;
+  background: #F3F4F6;
+}
+
+.shop_description {
+  width: 583px;
+  height: 184px;
+  box-sizing: border-box;
+  padding: 88px 488px 88px 97px;
+  background: #F3F4F6;
+}
+
+.shop_description-title {
+  width: 585px;
+  height: 112px;
+  padding-right: -2px;
   margin-bottom: 32px;
   font-weight: bold;
   font-size: 40px;
@@ -301,12 +368,21 @@ p {
   color: #2C1500;
 }
 
-.shop_img {
-  height: auto;
+.shop_description-button {
+  width: 152px;
+  height: 40px;
+  background: #156963;
+  border: 1px solid #156963;
+  box-sizing: border-box;
+  margin: 32px 0px;
+}
+
+.shop_description-picture {
   width: 402px;
-  top: 0;
-  right: 41px;
-  position: absolute;
+  height: auto;
+}
+
+.shop_description-img {
 }
 
 /* Footer */
